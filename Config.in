@@ -886,3 +886,9 @@ source "Config.in.legacy"
 
 # br2-external menus definitions
 source "$BR2_BASE_DIR/.br2-external.in.menus"
+
+# WPE
+source "package/wpebackend-rdk/Config.in"
+source "package/wpebackend/Config.in"
+source "package/wpewebkit/Config.in"
+source "package/wpelauncher/Config.in"
